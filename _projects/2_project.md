@@ -1,81 +1,90 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: Stakeholder Network Modeling for Railway Decarbonization
+description: Network analysis and reorganization of stakeholder interactions in public decision processes
+importance: 3
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Regional railway decarbonization involves complex decision-making processes bringing together public authorities, railway operators, infrastructure managers, industrial companies, and other stakeholders.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Their responsibilities, influence, and interactions shape how technological alternatives are assessed and selected.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+During my doctoral research, I developed a methodology to **model, analyze, and reorganize stakeholder networks** involved in regional railway decarbonization decisions.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The research drew on exchanges with stakeholders from **six French regions** and combined network modeling, quantitative indicators, and clustering algorithms.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Research objectives
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The research addressed three questions:
 
-{% raw %}
+1. How are stakeholders organized and connected within railway decarbonization decision processes?
+2. How is influence distributed among public and private actors?
+3. How can stakeholder interactions be reorganized to reduce decision-making risks and improve coordination?
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Methodological developments
 
-{% endraw %}
+### Stakeholder identification and characterization
+
+Identification of organizations involved in regional railway decarbonization, based on stakeholder interviews and analysis of their responsibilities within the decision process.
+
+The methodology considers the diversity of public and private actors and their respective roles in technological substitution decisions.
+
+### Network modeling
+
+Development of a stakeholder interaction model using **Design Structure Matrices (DSM)** and graph-based representations.
+
+The model captures interactions between organizations and provides a structured representation of the decision-making network.
+
+### Network analysis
+
+Application of quantitative network indicators to characterize stakeholder positions, identify influential actors, and investigate the distribution of interactions within the decision process.
+
+The analysis examines the relationships between institutional responsibilities, stakeholder centrality, and the organization of the network.
+
+### Clustering and network reorganization
+
+Application of clustering algorithms to identify groups of strongly interacting stakeholders.
+
+The resulting network structure is used to investigate opportunities for reorganizing stakeholder interventions and reducing risks associated with coordination and influence asymmetries.
+
+## Empirical application
+
+The methodology was developed using information gathered through exchanges with regional railway stakeholders from six French regions.
+
+The empirical analysis highlighted the importance of coordination between public decision-makers and private actors, as well as the potential of network reorganization to improve the structure of decision processes.
+
+## Scientific contributions
+
+The research provides a quantitative approach for analyzing stakeholder organization in complex public-private decision systems.
+
+Its contributions include:
+
+- A methodology for representing stakeholder interactions as a network
+- Quantitative assessment of stakeholder positions and influence
+- Identification of stakeholder clusters through network analysis
+- A network reorganization approach aimed at reducing decision-making risks
+- Application to regional railway decarbonization
+
+## Methods and tools
+
+**Methods:** Stakeholder analysis, Design Structure Matrices, graph theory, network centrality indicators, clustering, network reorganization.
+
+**Tools:** Python, network modeling and visualization.
+
+## Publications
+
+**Volant, B., Marle, F., Leroy, Y., & Dalbavie, J.-M. (2026).**
+
+*Who decides? Positioning stakeholders in a decision-making process via network modeling and analysis: Application to regional trains decarbonization.*
+
+Transportation Research Interdisciplinary Perspectives, 36, 101880.
+
+**Volant, B., Marle, F., Leroy, Y., & Dalbavie, J.-M. (2024).**
+
+*Modeling and Analyzing Interactions Between Stakeholders for Train Decarbonization Decisions at a Regional Scale.*
+
+Proceedings of the 26th International DSM Conference, Stuttgart, Germany.
