@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Stakeholder Network Modeling for Railway Decarbonization
-description: Network analysis and reorganization of stakeholder interactions in public decision processes
-importance: 3
+description: Network analysis, stakeholder influence and decision process reorganization
+importance: 2
 category: work
 related_publications: false
 ---
