@@ -1,81 +1,79 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Prospective LCA and Multicriteria Decision Support for Railway Decarbonization
+description: Environmental modeling, research coordination and decision support for public authorities
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The decarbonization of regional railway transport requires evaluating alternative energy technologies across their entire life cycles and translating environmental assessment results into technological recommendations adapted to local operating conditions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+As part of my doctoral research at **CentraleSupélec, Université Paris-Saclay**, conducted in partnership with **IKOS Consulting**, I developed a methodology combining **prospective, parametric Life Cycle Assessment (LCA)** and **Multicriteria Decision methods (MCDM)** to support public authorities in selecting low-emission railway technologies.
+This work combined environmental modeling, scientific coordination, methodological development and collaboration with public stakeholders, including ADEME and regional transport authorities in Corsica.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## 1. Prospective Life Cycle Assessment of Railway Technologies
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+I developed and led the development of prospective, parametric LCA models for regional railway energy technologies, working with research engineers and supervising four interns.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The technologies investigated included:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Battery-electric trains
+- Hydrogen fuel cell and battery trains
+- Diesel-battery hybrid trains
+- Alternative fuels, such as biofuels
+- Railway electrification
 
-{% raw %}
+### Parametric environmental modeling
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+The models evaluate the environmental impacts of technological alternatives according to their technical configurations, operating conditions, energy consumption, infrastructure requirements and life-cycle inventories.
 
-{% endraw %}
+Their parametric structure allows consistent comparisons between technologies under different railway operating conditions. It allows for adapaptability to other energetic contexts.
+
+### Prospective modeling
+
+The methodology incorporates future technological and energy pathways.
+
+This includes the evolution of energy supply chains, technological characteristics and other parameters influencing life-cycle environmental impacts.
+
+### Sensitivity and uncertainty analysis
+
+Sensitivity and uncertainty analyses were developed to identify influential parameters, evaluate the variability of environmental results and investigate the robustness of technological comparisons.
+
+### Scientific coordination
+
+I coordinated modeling activities with engineers and supervised four interns contributing to the development of the models.
+
+My responsibilities included methodological design, defining modeling requirements, coordinating technical developments and integrating the different modeling components into a consistent assessment framework. Along the modeling itself. 
+
+## 2. Multicriteria Decision Support
+
+I developed a decision-support methodology to transform prospective LCA results into technological recommendations for public transport authorities.
+
+## 3. Collaboration with Public Stakeholders
+
+### ADEME
+
+The research included comparative work with a similar ADEME project and exchanges with the agency concerning the environmental assessment of low-emission railway technologies. These interactions contributed to the development and positioning of the methodological approach in relation to existing environmental assessment.
+
+### Territorial application in Corsica
+
+In collaboration with stakeholders in Corsica, I applied the methodology to the regional railway network.
+
+The application involved adapting the environmental models and decision-support framework to territorial characteristics, including railway operating conditions, energy supply and technological feasibility. This case study demonstrated how the methodology could support public authorities in evaluating technological substitution alternatives within a specific regional context.
+
+## Methods and Tools
+
+**Environmental assessment:** Life Cycle Assessment, prospective LCA, parametric modeling, life-cycle inventories, ecoinvent, EF 3.1.
+
+**Decision science:** Multicriteria Decision Analysis, PROMETHEE, technological feasibility screening, sensitivity and uncertainty analysis.
+
+**Computational tools:** Python, openLCA, QGIS.
+
+## Research Contribution
+
+The project provides an integrated methodological framework connecting prospective environmental assessment with multicriteria decision-making.
+
+It enables the comparison of regional railway energy technologies under changing operating conditions and uncertain future scenarios, while translating complex environmental results into structured recommendations for public decision-makers.
