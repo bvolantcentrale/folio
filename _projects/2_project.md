@@ -4,7 +4,7 @@ title: Stakeholder Network Modeling for Railway Decarbonization
 description: Network analysis, stakeholder modeling and decision process reorganization
 importance: 2
 category: work
-related_publications: false
+related_publications: true
 ---
 
 ## Overview
@@ -75,16 +75,10 @@ Its contributions include:
 
 **Tools:** Python, network modeling and visualization.
 
+
 ## Publications
 
-**Volant, B., Marle, F., Leroy, Y., & Dalbavie, J.-M. (2026).**
+{% cite Volant2026WhoDecides %}
 
-*Who decides? Positioning stakeholders in a decision-making process via network modeling and analysis: Application to regional trains decarbonization.*
+{% cite Volant2024DSM %}
 
-Transportation Research Interdisciplinary Perspectives, 36, 101880.
-
-**Volant, B., Marle, F., Leroy, Y., & Dalbavie, J.-M. (2024).**
-
-*Modeling and Analyzing Interactions Between Stakeholders for Train Decarbonization Decisions at a Regional Scale.*
-
-Proceedings of the 26th International DSM Conference, Stuttgart, Germany.
