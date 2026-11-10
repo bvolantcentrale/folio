@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Prospective LCA and Multicriteria Decision Support for Railway Decarbonization
-description: Environmental modeling, research coordination and decision support for public authorities
+description: Life Cycle Assessment (LCA) and Multiple-criteria Decision Method (MCDM)
 importance: 1
 category: work
 related_publications: false
@@ -9,10 +9,10 @@ related_publications: false
 
 ## Overview
 
-The decarbonization of regional railway transport requires evaluating alternative energy technologies across their entire life cycles and translating environmental assessment results into technological recommendations adapted to local operating conditions.
+The decarbonization of regional railway transport requires evaluating prospective energy technologies across their life cycles and computing their environmental impacts into technological recommendations adapted to local operating conditions.
 
 As part of my doctoral research at **CentraleSupélec, Université Paris-Saclay**, conducted in partnership with **IKOS Consulting**, I developed a methodology combining **prospective, parametric Life Cycle Assessment (LCA)** and **Multicriteria Decision methods (MCDM)** to support public authorities in selecting low-emission railway technologies.
-This work combined environmental modeling, scientific coordination, methodological development and collaboration with public stakeholders, including ADEME and regional transport authorities in Corsica.
+This work combined environmental modeling, methodological development and collaboration with public stakeholders, including ADEME and regional transport authorities in Corsica.
 
 ## 1. Prospective Life Cycle Assessment of Railway Technologies
 
